@@ -1,24 +1,12 @@
-# README
+# jruby-rails-tomcat-sample
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a sample JRuby Rails app running on a Tomcat server in a Docker container
 
-Things you may want to cover:
+## Quick Start
 
-* Ruby version
+```sh
+$ bundle
+$ make
+```
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+View the app at [http://localhost:8080/jruby-rails-tomcat-sample/](http://localhost:8080/jruby-rails-tomcat-sample/)
