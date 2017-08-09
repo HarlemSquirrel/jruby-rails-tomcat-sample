@@ -3,6 +3,7 @@ CURRENT_DATE=`date +%Y-%m-%d`
 container: build server
 
 build:
+	rails assets:precompile
 	warble war
 	docker-compose build app
 
