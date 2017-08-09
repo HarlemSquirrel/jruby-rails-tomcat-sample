@@ -21,3 +21,4 @@
 *.war
 
 public/assets/*
+db/*.sqlite3
