@@ -2,6 +2,13 @@
 
 This is a sample JRuby Rails app running on a Tomcat server in a Docker container
 
+## Dependencies
+
+- docker
+- docker-compose
+- jruby
+- yarn
+
 ## Quick Start
 
 ```sh
