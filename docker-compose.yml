@@ -1,0 +1,7 @@
+version: '3.3'
+services:
+  # docker-compose exec app_tomcat tail -f logs/localhost.2017-08-09.log
+  app:
+    build: .
+    ports:
+      - 8080:8080
